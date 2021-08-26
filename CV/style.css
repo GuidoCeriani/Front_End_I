@@ -1,0 +1,27 @@
+img {
+    text-align: center;
+    height: 147px;
+}
+h1 {
+    text-align: center;
+    line-height: 29,64px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#005677;
+    background-color: #C4C4C4;
+}
+header {
+    text-align: center;
+}
+h2 {
+    color: #005677;
+    background-color: #C4C4C4;
+}
+footer {
+    background-color: #005677;
+    text-align: center;
+    color: white;
+}
+dt {
+    font-weight: bold;
+}
