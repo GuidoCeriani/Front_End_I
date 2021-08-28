@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 1025px;
+  color: #3c2313;
+}
+#top {
+  background-color: #222222;
+  color: #f3f3f3;
+}
+#menu {
+  background-color: #f0a83e;
+  color: #f3f3f3;
+}
+.destacados {
+  font-size: 15px;
+  font-weight: 700;
+}
+.imgText1 {
+  font-size: 30px;
+}
+.imgText2 {
+  position: absolute;
+  margin-top: auto;
+  font-weight: bold;
+}
+.imgText3 {
+  position: absolute;
+  background-color: #f0a83e;
+  color: #f3f3f3;
+  display: inline;
+}
+#center {
+  text-align: center;
+}
+.abajo {
+  background-color: #3c2313;
+}
+.iconos {
+  color: #f3f3f3;
+  font-size: 20px;
+}
+.detalles {
+  font-size: 10px;
+  color: #8a8787;
+}
+h1 {
+  color: #3c2313;
+  font-size: 40px;
+  font-weight: 700;
+}
+#comederoAccesoriosComida {
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+}
+.precio {
+  color: #f0a83e;
+}
+footer {
+  text-align: center;
+  background-color: #f0a83e;
+  color: #f3f3f3;
+}

@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Pet Shop</title>
   </head>
   <body>
     <header>
-      <section>
+      <section id="top">
         <p>Grandes ofertas en comederos</p>
         <nav>
           <ul type="none">
@@ -18,7 +24,7 @@
           </ul>
         </nav>
       </section>
-      <section>
+      <section id="menu">
         <div>
           <img src="img/Logo.png" alt="" />
         </div>
@@ -33,30 +39,40 @@
       </section>
     </header>
     <main>
-      <section>
-        <img src="img/banner.png" alt="banner" />
-        <p>¡Es un placer tenerte aquí!</p>
-        <p>¡Comederos en descuento!</p>
-        <p>COMEDEROS</p>
+      <section id="center">
+        <p class="imgText1">¡Es un placer tenerte aquí!</p>
+        <p class="imgText2">¡Comederos en descuento!</p>
+        <p class="imgText3">COMEDEROS</p>
+        <img id="foto" src="img/banner.png" alt="banner" />
         <br />
       </section>
       <section>
         <img src="img/patita.png" alt="patita" />
         <h1>Productos Destacados</h1>
-        <ul type="none">
-          <li>Comederos</li>
-          <li>Accesorios</li>
-          <li>Comida</li>
-        </ul>
+        <p id="comederoAccesoriosComida">Comedero - Accesorios - Comida</p>
         <img src="img/churrasquito.png" alt="juguete" />
-        <h4>Juguete Churrasquito</h4>
-        <p>$150</p>
+        <p class="destacados">Juguete Churrasquito</p>
+        <p class="precio">$150</p>
         <img src="img/comedero.png" alt="comedeto" />
-        <h4>Comedero para perro</h4>
-        <p>$250</p>
+        <p class="destacados">Comedero para perro</p>
+        <p class="precio">$250</p>
         <img src="img/Huesito.png" alt="Huesito" />
-        <h4>Juguete Huesito</h4>
-        <p>$650</p>
+        <p class="destacados">Juguete Huesito</p>
+        <p class="precio">$650</p>
+      </section>
+      <section class = "abajo">
+        <img src="img\locacion.png" alt="localidad">
+        <p class="iconos">Localidad</p>
+        <p class="detalles">Calle - provincia</p>
+        <img src="img\telefono.png" alt="telefono">
+        <p class="iconos">Teléfono</p>
+        <p class="detalles">Número de teléfono</p>
+        <img src="img\correo.png" alt="correo">
+        <p class="iconos">Correo Electrónico</p>
+        <p class="detalles">Dirección de correo</p>
+        <div>
+          <img src="img/Logo.png" alt="" />
+        </div>
       </section>
     </main>
     <footer>Todos los derechos reservados Front End</footer>
