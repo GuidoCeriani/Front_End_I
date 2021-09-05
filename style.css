@@ -1,0 +1,129 @@
+* {
+  font-family: "Oranienbaum", serif;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  z-index: 20;
+}
+header > h2 {
+  background-color: #18674b73;
+  color: white;
+  width: 75%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 48px;
+  line-height: 55px;
+  height: 81px;
+  padding: 10px 10px 10px 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  position: absolute;
+  color: white;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 50px;
+  z-index: 10;
+  width: max-content;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 30%;
+}
+.fondo {
+  width: 75%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#trabajos {
+  position: absolute;
+  color: white;
+  top: 30px;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  z-index: 10;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#banner {
+  position: absolute;
+  width: 300px;
+  height: 133px;
+  top:8px;
+  z-index: 10;
+}
+div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#botones {
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  height: 274px;
+  background-color: #18674b73;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+button {
+  width: 190px;
+  height: 71px;
+  background-color: #3ca38b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 169px;
+  border: none;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  transition-duration: 1s;
+}
+button:hover {
+  background-color: #214a48;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #CCA83B;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+a:active {
+  color: #393448;
+  text-decoration: none;
+}
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#foot {
+  background-color: #18674b73;
+  margin-top: 15px;
+  width: 75%;
+  height: 57px;
+  padding: 20px 771px 16px 25px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
