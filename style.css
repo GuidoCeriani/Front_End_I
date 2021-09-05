@@ -39,7 +39,7 @@ h1 {
   z-index: 1000;
   width: max-content;
   border-radius: 10%;
-  padding: 12px 0px 10px 0px;
+  padding: 12px 3.5px 10px 0px;
 }
 .fondo {
   position: relative;
