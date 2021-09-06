@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+  flex-wrap: wrap;
 }
 header {
   position: sticky;
